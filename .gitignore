@@ -1,0 +1,61 @@
+server/node_modules
+albumer/node_modules
+# OSX
+#
+albumer/.DS_Store
+
+# Xcode
+#
+albumer/build/
+albumer/*.pbxuser
+albumer/!default.pbxuser
+albumer/*.mode1v3
+albumer/!default.mode1v3
+albumer/*.mode2v3
+albumer/!default.mode2v3
+albumer/*.perspectivev3
+albumer/!default.perspectivev3
+albumer/xcuserdata
+albumer/*.xccheckout
+albumer/*.moved-aside
+albumer/DerivedData
+albumer/*.hmap
+albumer/*.ipa
+albumer/*.xcuserstate
+
+# Android/IntelliJ
+#
+albumer/build/
+albumer/.idea
+albumer/.gradle
+albumer/local.properties
+albumer/*.iml
+
+# node.js
+#
+albumer/node_modules/
+albumer/npm-debug.log
+albumer/yarn-error.log
+
+# BUCK
+albumer/buck-out/
+albumer/\.buckd/
+albumer/*.keystore
+albumer/!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+albumer/*/fastlane/report.xml
+albumer/*/fastlane/Preview.html
+albumer/*/fastlane/screenshots
+
+# Bundle artifact
+albumer/.jsbundle
+
+# CocoaPods
+albumer/ios/Pods/
